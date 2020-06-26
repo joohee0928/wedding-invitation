@@ -1,0 +1,369 @@
+html {
+  font-size: 4.445vmin;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-size: 1rem;
+  font-family: "Nanum Gothic", "Nanum Myeongjo", serif;
+  background-color: #eee;
+}
+
+button[type="button"] {
+  cursor: pointer;
+}
+
+.blind {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+.bg-color-red {
+  background-color: #fd2c02;
+}
+.bg-color-blue-1 {
+  background-color: #3255df;
+}
+.bg-color-blue-2 {
+  background-color: #738efa;
+}
+.bg-color-green-1 {
+  background-color: #4aaf53;
+}
+.bg-color-yellow {
+  background-color: #f5be0c;
+}
+.bg-color-green-2 {
+  background-color: #048b70;
+}
+.bg-color-pink {
+  background-color: #fc6fb8;
+}
+
+main {
+  width: 100%;
+  max-width: 720px;
+  text-align: center;
+  color: #333;
+  background-color: #fff;
+  background-image: url(../images/bg/bg_white.jpeg);
+  background-repeat: repeat;
+  overflow: hidden;
+}
+
+/* 소개 */
+.info {
+  position: relative;
+  max-height: 50rem;
+  font-family: "Nanum Myeongjo";
+}
+.info .dday {
+  display: block;
+  padding: 2.5rem 0;
+  font-size: 1.3rem;
+}
+.info img {
+  display: block;
+  width: 100%;
+}
+.info .tit {
+  padding: 3rem 0;
+  letter-spacing: 0.2rem;
+}
+.info .tit em {
+  font-size: 1.3rem;
+  font-weight: bold;
+  letter-spacing: 0.5rem;
+}
+.info .tit em:last-child {
+  margin-left: 0.3rem;
+}
+.info address {
+  margin-top: 1rem;
+}
+
+/* 인사말 */
+.greeting {
+  margin-top: 10rem;
+  font-family: "Nanum Myeongjo";
+}
+.greeting .message {
+  margin-bottom: 5rem;
+  padding: 0 3.2rem;
+  text-align: left;
+}
+.greeting .message li {
+  display: flex;
+  margin-bottom: 0.5rem;
+  padding: 0;
+  line-height: 0.8rem;
+  border-bottom: none;
+}
+.greeting .message p {
+  color: #666;
+  line-height: 1.5rem;
+}
+.greeting .message p::first-letter {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.greeting .family p {
+  position: relative;
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
+}
+.greeting .family em {
+  font-size: 1rem;
+}
+.greeting .family em:first-child::after {
+  content: ".";
+  display: inline-block;
+  position: relative;
+  font-size: 0.813rem;
+  font-weight: bold;
+  top: -0.3rem;
+  text-align: center;
+  padding: 0 0.3rem;
+}
+.greeting .family strong {
+  font-size: 1.1rem;
+}
+
+/* 달력 */
+.calendar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff6f8;
+  margin-top: 10rem;
+}
+.calendar .contents {
+  width: 90vw;
+  box-sizing: border-box;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  padding: 0.5rem;
+}
+.calendar .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem 0 1rem 0;
+  border-bottom: solid 2px #f6f6f6;
+  color: #ff6666;
+}
+.calendar .header .tit {
+  margin-left: 1rem;
+}
+.calendar .header .tit em {
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+.calendar .header time {
+  font-size: 0.8rem;
+  color: #999;
+  margin-right: 1rem;
+}
+.calendar .contents .row {
+  display: flex;
+  justify-content: space-around;
+}
+.calendar .contents .row time {
+  width: calc(100% / 7);
+  padding: 0.5rem 0.3rem;
+  margin: 0.3rem;
+}
+.calendar .contents .row time:first-child {
+  color: #ff6666;
+}
+.calendar .contents .row .active {
+  background-color: #ff7189;
+  color: #fff;
+  border-radius: 50%;
+}
+
+/* 갤러리 */
+.gallery {
+  margin-top: 10rem;
+}
+.gallery .tit {
+  display: inline-block;
+  border-bottom: solid 1px #a7a6a6;
+  padding: 0 1rem 0.3rem 1rem;
+  margin-bottom: 1rem;
+  font-family: "Nanum Myeongjo";
+}
+.gallery .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0 0.3rem;
+}
+.gallery .container a {
+  text-decoration: none;
+}
+.gallery .container img {
+  width: 7rem;
+}
+.gallery .description {
+  margin-top: 1rem;
+  font-size: 0.8rem;
+}
+
+/* 오시는길 */
+.location {
+  margin-top: 10rem;
+  background-color: #fafafa;
+}
+.location .header {
+  padding: 1.2rem 1rem;
+  text-align: left;
+}
+.location .header .addr_fst {
+  font-size: 1rem;
+}
+.location .header .addr_lst {
+  font-size: 0.8rem;
+  color: #666;
+  margin: 0.5rem 0 0.3rem 0;
+}
+.location .header .tel {
+  text-decoration: none;
+  font-size: 0.8rem;
+  color: #666;
+}
+.location .map .view img {
+  width: 100%;
+}
+.location .third_party {
+  padding: 0.5rem 0;
+}
+.location .third_party ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 1rem;
+}
+.location .third_party button {
+  width: 4.2rem;
+  font-size: 0.7rem;
+  border: 0;
+  background-color: transparent;
+  line-height: 0.8rem;
+  white-space: nowrap;
+}
+.location .third_party img {
+  display: block;
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+/* 안내사항 */
+.guide {
+  text-align: left;
+  padding: 10rem 0 5rem 0;
+  background-color: #eee;
+}
+.guide ul {
+  padding: 1rem 1rem 2rem 1rem;
+  background-color: #fff;
+}
+.guide ul li {
+  padding: 1rem 0;
+  border-bottom: solid 2px #eee;
+}
+.guide dl dt {
+  margin-bottom: 0.7rem;
+}
+.guide dl dd {
+  position: relative;
+  font-size: 0.8rem;
+  color: #888;
+  margin-top: 0.5rem;
+  line-height: 1rem;
+}
+.guide .bus ul {
+  margin-top: 0.5rem;
+  padding: 0;
+}
+.guide .bus li {
+  display: flex;
+  margin-top: 0.3rem;
+  padding: 0;
+  line-height: 0.8rem;
+  border-bottom: none;
+  font-size: 0.8rem;
+}
+.guide .bus .tit {
+  height: 0.78rem;
+  text-align: center;
+  white-space: nowrap;
+  margin-right: 0.3rem;
+  color: #fff;
+  border-radius: 0.2rem;
+}
+.guide .bus span {
+  padding: 0.2rem;
+  color: #888;
+}
+.guide .bus span:not(.tit) {
+  line-height: 1rem;
+  padding: 0.08rem 0 0 0;
+}
+
+/* 공유하기 */
+.share {
+  padding: 1.5rem 0;
+  background-color: #333;
+}
+.share ul {
+  display: flex;
+  justify-content: center;
+  padding: 0 1rem;
+}
+.share ul li {
+  position: relative;
+}
+.share ul li:first-child {
+  margin-right: 1rem;
+}
+.share button {
+  width: 4rem;
+  font-size: 0.7rem;
+  border: 0;
+  color: #fff;
+  background-color: transparent;
+  line-height: 0.8rem;
+  white-space: nowrap;
+}
+.share img {
+  display: block;
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+/* DeskTop */
+@media all and (min-width: 720px) {
+  html {
+    font-size: 2rem;
+  }
+  main {
+    box-shadow: 0rem 0rem 0.5rem #999;
+  }
+}
+
+@supports (position: sticky) or (position: -webkit-sticky) {
+  .sticky {
+    position: -webkit-sticky; /* 사파리 브라우저 지원 */
+    position: sticky;
+    top: 0;
+    background: red;
+  }
+}
