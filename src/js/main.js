@@ -27,11 +27,16 @@ addEvent("#shareFacebook", "click", () => {
 });
 
 addEvent("#btnKakaoMap", "click", () => {
+  window.location.href =
+    "https://m.map.kakao.com/actions/detailMapView?id=20515606&refService=place#none";
+  /*
   window.open(
     "https://m.map.kakao.com/actions/detailMapView?id=20515606&refService=place"
   );
+  */
 });
 
+/*
 addEvent("#btnKakaoNavi", "click", () => {
   Kakao.Navi.start({
     name: target.name,
@@ -40,17 +45,25 @@ addEvent("#btnKakaoNavi", "click", () => {
     coordType: "wgs84",
   });
 });
+*/
 
 addEvent("#btnNaverMap", "click", () => {
+  window.location.href =
+    "https://m.place.naver.com/place/34585318/location?subtab=location";
+  /*
   window.open(
     "https://m.place.naver.com/place/34585318/location?subtab=location"
   );
+  */
 });
 
 addEvent("#btnTMap", "click", () => {
+  window.location.href = `https://apis.openapi.sk.com/tmap/app/routes?appKey=l7xx0cad021f2b204989bff69ad3176bd011&name=${target.name}&lon=${target.lon}&lat=${target.lat}`;
+  /*
   window.open(
     `https://apis.openapi.sk.com/tmap/app/routes?appKey=l7xx0cad021f2b204989bff69ad3176bd011&name=${target.name}&lon=${target.lon}&lat=${target.lat}`
   );
+  */
 });
 
 addEvent("#kakaoTalk", "click", () => {
