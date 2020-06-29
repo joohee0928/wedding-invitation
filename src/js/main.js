@@ -47,6 +47,7 @@ addEvent("#kakaoTalk", "click", () => {
     addressTitle: "엠타워컨벤션",
     content: {
       title: "구민이와 주희의 결혼식에 초대합니다!",
+      description: "9/12(토) pm 5:30 안양 엠타워컨벤션",
       imageUrl: visualImgUrl,
       link: {
         mobileWebUrl: target.url,
