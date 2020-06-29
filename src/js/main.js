@@ -46,7 +46,7 @@ addEvent("#kakaoTalk", "click", () => {
     address: "경기 안양시 만안구 안양로 104 엠타워컨벤션 6층 파티오볼룸",
     addressTitle: "엠타워컨벤션",
     content: {
-      title: "구민이와 주희의 결혼식에 초대합니다!",
+      title: "구민♥주희 결혼식에 초대합니다!",
       description: "9/12(토) pm 5:30 안양 엠타워컨벤션",
       imageUrl: visualImgUrl,
       link: {
