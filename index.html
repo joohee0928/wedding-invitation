@@ -38,6 +38,7 @@
     <script src="src/js/lib/lightgallery.min.js"></script>
     <script src="src/js/lib/lg-thumbnail.min.js"></script>
     <script src="src/js/lib/lg-fullscreen.min.js"></script>
+    <script src="src/js/lib/kakao.min.js"></script>
   </head>
   <body>
     <main>
@@ -234,7 +235,7 @@
           <div class="third_party">
             <ul>
               <li>
-                <button type="button">
+                <button type="button" id="btnKakaoMap">
                   <img
                     src="src/images/app/ico_kakaomap.png"
                     alt="카카오맵"
@@ -242,7 +243,7 @@
                 </button>
               </li>
               <li>
-                <button type="button">
+                <button type="button" id="btnKakaoNavi">
                   <img
                     src="src/images/app/ico_kakaonavi.png"
                     alt="카카오내비"
@@ -250,7 +251,7 @@
                 </button>
               </li>
               <li>
-                <button type="button">
+                <button type="button" id="btnNaverMap">
                   <img
                     src="src/images/app/ico_navermap.png"
                     alt="네이버지도"
@@ -258,7 +259,7 @@
                 </button>
               </li>
               <li>
-                <button type="button">
+                <button type="button" id="btnTMap">
                   <img src="src/images/app/ico_tmap.png" alt="티맵" />티맵
                 </button>
               </li>
@@ -324,7 +325,7 @@
         <h2 class="blind">공유하기</h2>
         <ul>
           <li>
-            <button type="button">
+            <button type="button" id="kakaoTalk">
               <img
                 src="src/images/app/ico_kakao.png"
                 alt="카카오톡"

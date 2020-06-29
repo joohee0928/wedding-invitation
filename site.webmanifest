@@ -3,7 +3,7 @@
   "name": "Invitation",
   "icons": [
     {
-      "src": "src/images/icon/favicon.png",
+      "src": "src/images/icon/icon.png",
       "type": "image/png",
       "sizes": "192x192"
     }
