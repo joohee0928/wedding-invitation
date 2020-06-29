@@ -250,7 +250,7 @@ main {
 .location .third_party ul {
   display: flex;
   justify-content: space-around;
-  padding: 0 1rem;
+  padding: 0 2rem;
 }
 .location .third_party button {
   width: 4.2rem;
