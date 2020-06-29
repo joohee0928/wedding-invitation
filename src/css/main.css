@@ -72,6 +72,9 @@ main {
   display: block;
   width: 100%;
 }
+.info .img_visual {
+  min-height: 18rem;
+}
 .info .tit {
   padding: 3rem 0;
   letter-spacing: 0.2rem;
