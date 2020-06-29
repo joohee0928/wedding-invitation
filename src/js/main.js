@@ -29,41 +29,15 @@ addEvent("#shareFacebook", "click", () => {
 addEvent("#btnKakaoMap", "click", () => {
   window.location.href =
     "https://m.map.kakao.com/actions/detailMapView?id=20515606&refService=place#none";
-  /*
-  window.open(
-    "https://m.map.kakao.com/actions/detailMapView?id=20515606&refService=place"
-  );
-  */
 });
-
-/*
-addEvent("#btnKakaoNavi", "click", () => {
-  Kakao.Navi.start({
-    name: target.name,
-    x: target.lon,
-    y: target.lat,
-    coordType: "wgs84",
-  });
-});
-*/
 
 addEvent("#btnNaverMap", "click", () => {
   window.location.href =
     "https://m.place.naver.com/place/34585318/location?subtab=location";
-  /*
-  window.open(
-    "https://m.place.naver.com/place/34585318/location?subtab=location"
-  );
-  */
 });
 
 addEvent("#btnTMap", "click", () => {
   window.location.href = `https://apis.openapi.sk.com/tmap/app/routes?appKey=l7xx0cad021f2b204989bff69ad3176bd011&name=${target.name}&lon=${target.lon}&lat=${target.lat}`;
-  /*
-  window.open(
-    `https://apis.openapi.sk.com/tmap/app/routes?appKey=l7xx0cad021f2b204989bff69ad3176bd011&name=${target.name}&lon=${target.lon}&lat=${target.lat}`
-  );
-  */
 });
 
 addEvent("#kakaoTalk", "click", () => {
@@ -72,18 +46,12 @@ addEvent("#kakaoTalk", "click", () => {
     address: "경기 안양시 만안구 안양로 104 엠타워컨벤션 6층 파티오볼룸",
     addressTitle: "엠타워컨벤션",
     content: {
-      title: "구민♥주희 첩첩장",
-      description: "구민이와 주희의 결혼식에 초대합니다!",
+      title: "구민이와 주희의 결혼식에 초대합니다!",
       imageUrl: visualImgUrl,
       link: {
         mobileWebUrl: target.url,
         webUrl: target.url,
       },
-    },
-    social: {
-      likeCount: 999,
-      commentCount: 999,
-      sharedCount: 999,
     },
     buttons: [
       {
