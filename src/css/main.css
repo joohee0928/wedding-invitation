@@ -256,17 +256,28 @@ main {
   padding: 0 2rem;
 }
 .location .third_party button {
-  width: 4.2rem;
+  width: 4rem;
+  height: 5.5rem;
   font-size: 0.7rem;
   border: 0;
   background-color: transparent;
-  line-height: 0.8rem;
+  background-size: contain;
+  background-position: center top;
+  background-repeat: no-repeat;
   white-space: nowrap;
 }
-.location .third_party img {
-  display: block;
-  width: 100%;
-  margin-bottom: 0.5rem;
+.location .third_party .kakaomap {
+  background-image: url('../../src/images/app/ico_kakaomap.png');
+}
+.location .third_party .navermap {
+  background-image: url('../../src/images/app/ico_navermap.png');
+}
+.location .third_party .tmap {
+  background-image: url('../../src/images/app/ico_tmap.png');
+}
+.location .third_party span {
+  position: relative;
+  top: 2.2rem;
 }
 
 /* 안내사항 */
@@ -351,6 +362,29 @@ main {
   display: block;
   width: 100%;
   margin-bottom: 0.5rem;
+}
+
+
+.share button {
+  width: 4rem;
+  height: 6.2rem;
+  font-size: 0.7rem;
+  border: 0;
+  background-color: transparent;
+  background-size: contain;
+  background-position: center top;
+  background-repeat: no-repeat;
+  white-space: nowrap;
+}
+.share .kakaotalk {
+  background-image: url('../../src/images/app/ico_kakaotalk.png');
+}
+.share .facebook {
+  background-image: url('../../src/images/app/ico_facebook.png');
+}
+.share span {
+  position: relative;
+  top: 2.2rem;
 }
 
 /* DeskTop */
