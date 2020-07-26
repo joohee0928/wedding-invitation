@@ -144,7 +144,8 @@ main {
   justify-content: center;
   align-items: center;
   background-color: #fff6f8;
-  margin-top: 10rem;
+  margin-top: 5rem;
+  padding: 3rem 0;
 }
 .calendar .contents {
   width: 90vw;
@@ -267,13 +268,13 @@ main {
   white-space: nowrap;
 }
 .location .third_party .kakaomap {
-  background-image: url('../../src/images/app/ico_kakaomap.png');
+  background-image: url("../../src/images/app/ico_kakaomap.png");
 }
 .location .third_party .navermap {
-  background-image: url('../../src/images/app/ico_navermap.png');
+  background-image: url("../../src/images/app/ico_navermap.png");
 }
 .location .third_party .tmap {
-  background-image: url('../../src/images/app/ico_tmap.png');
+  background-image: url("../../src/images/app/ico_tmap.png");
 }
 .location .third_party span {
   position: relative;
@@ -332,6 +333,17 @@ main {
   line-height: 1rem;
   padding: 0.08rem 0 0 0;
 }
+.guide .bank dd {
+  margin-top: 0.3rem;
+}
+.guide .bank span:after {
+  position: relative;
+  border-right: 1px solid #bbb;
+  top: -0.1rem;
+  content: "";
+  margin: 0 0.2rem 0 0.5rem;
+  font-size: 0.5rem;
+}
 
 /* 공유하기 */
 .share {
@@ -364,7 +376,6 @@ main {
   margin-bottom: 0.5rem;
 }
 
-
 .share button {
   width: 4rem;
   height: 6.2rem;
@@ -377,10 +388,10 @@ main {
   white-space: nowrap;
 }
 .share .kakaotalk {
-  background-image: url('../../src/images/app/ico_kakaotalk.png');
+  background-image: url("../../src/images/app/ico_kakaotalk.png");
 }
 .share .facebook {
-  background-image: url('../../src/images/app/ico_facebook.png');
+  background-image: url("../../src/images/app/ico_facebook.png");
 }
 .share span {
   position: relative;
