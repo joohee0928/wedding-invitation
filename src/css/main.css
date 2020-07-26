@@ -7,11 +7,11 @@ body {
   justify-content: center;
   width: 100%;
   font-size: 1rem;
-  font-family: "Nanum Gothic", "Nanum Myeongjo", serif;
+  font-family: 'Nanum Gothic', 'Nanum Myeongjo', serif;
   background-color: #eee;
 }
 
-button[type="button"] {
+button[type='button'] {
   cursor: pointer;
   outline: none;
 }
@@ -61,7 +61,7 @@ main {
 .info {
   position: relative;
   max-height: 50rem;
-  font-family: "Nanum Myeongjo";
+  font-family: 'Nanum Myeongjo';
 }
 .info .dday {
   display: block;
@@ -94,7 +94,7 @@ main {
 /* 인사말 */
 .greeting {
   margin-top: 10rem;
-  font-family: "Nanum Myeongjo";
+  font-family: 'Nanum Myeongjo';
 }
 .greeting .message {
   margin-bottom: 5rem;
@@ -125,7 +125,7 @@ main {
   font-size: 1rem;
 }
 .greeting .family em:first-child::after {
-  content: ".";
+  content: '.';
   display: inline-block;
   position: relative;
   font-size: 0.813rem;
@@ -204,7 +204,7 @@ main {
   border-bottom: solid 1px #a7a6a6;
   padding: 0 1rem 0.3rem 1rem;
   margin-bottom: 1rem;
-  font-family: "Nanum Myeongjo";
+  font-family: 'Nanum Myeongjo';
 }
 .gallery .container {
   display: flex;
@@ -268,13 +268,13 @@ main {
   white-space: nowrap;
 }
 .location .third_party .kakaomap {
-  background-image: url("../../src/images/app/ico_kakaomap.png");
+  background-image: url('../../src/images/app/ico_kakaomap.png');
 }
 .location .third_party .navermap {
-  background-image: url("../../src/images/app/ico_navermap.png");
+  background-image: url('../../src/images/app/ico_navermap.png');
 }
 .location .third_party .tmap {
-  background-image: url("../../src/images/app/ico_tmap.png");
+  background-image: url('../../src/images/app/ico_tmap.png');
 }
 .location .third_party span {
   position: relative;
@@ -340,7 +340,7 @@ main {
   position: relative;
   border-right: 1px solid #bbb;
   top: -0.1rem;
-  content: "";
+  content: '';
   margin: 0 0.2rem 0 0.5rem;
   font-size: 0.5rem;
 }
@@ -388,10 +388,10 @@ main {
   white-space: nowrap;
 }
 .share .kakaotalk {
-  background-image: url("../../src/images/app/ico_kakaotalk.png");
+  background-image: url('../../src/images/app/ico_kakaotalk.png');
 }
 .share .facebook {
-  background-image: url("../../src/images/app/ico_facebook.png");
+  background-image: url('../../src/images/app/ico_facebook.png');
 }
 .share span {
   position: relative;
