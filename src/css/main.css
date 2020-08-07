@@ -65,8 +65,11 @@ main {
 }
 .info .dday {
   display: block;
-  padding: 2.5rem 0;
+  position: absolute;
+  width: 100%;
+  margin-top: 3rem;
   font-size: 1.3rem;
+  color: #d5d1c4;
 }
 .info img {
   display: block;
