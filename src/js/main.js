@@ -11,7 +11,7 @@ class WeddingInvitation {
     };
     this.pageUrl = 'https://joohee0928.github.io/wedding-invitation/';
     this.imgUrl =
-      'http://www.mtowerwed.co.kr/attachList/upload/main/m20191125122518267.jpg';
+      'https://joohee0928.github.io/wedding-invitation/src/images/visual/main.jpeg';
     this.el = null;
 
     this.init();
