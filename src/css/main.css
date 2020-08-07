@@ -287,11 +287,11 @@ main {
 /* 안내사항 */
 .guide {
   text-align: left;
-  padding: 10rem 0 5rem 0;
+  padding: 10rem 0;
   background-color: #eee;
 }
 .guide ul {
-  padding: 1rem 1rem 2rem 1rem;
+  padding: 2rem 1rem 2rem 1rem;
   background-color: #fff;
 }
 .guide ul li {
@@ -335,6 +335,9 @@ main {
 .guide .bus span:not(.tit) {
   line-height: 1rem;
   padding: 0.08rem 0 0 0;
+}
+.guide .bank {
+  border-bottom: none;
 }
 .guide .bank dd {
   margin-top: 0.3rem;
@@ -408,14 +411,5 @@ main {
   }
   main {
     box-shadow: 0rem 0rem 0.5rem #999;
-  }
-}
-
-@supports (position: sticky) or (position: -webkit-sticky) {
-  .sticky {
-    position: -webkit-sticky; /* 사파리 브라우저 지원 */
-    position: sticky;
-    top: 0;
-    background: red;
   }
 }
