@@ -96,13 +96,17 @@ main {
 
 /* 인사말 */
 .greeting {
-  margin-top: 10rem;
+  margin-top: 6rem;
   font-family: 'Nanum Myeongjo';
 }
 .greeting .message {
   margin-bottom: 5rem;
-  padding: 0 3.2rem;
+  padding: 9rem 3.2rem 0 3.2rem;
   text-align: left;
+  background-image: url('../images/icon/ring.png');
+  background-size: 2rem;
+  background-repeat: no-repeat;
+  background-position: top center;
 }
 .greeting .message li {
   display: flex;
@@ -205,9 +209,32 @@ main {
 .gallery .tit {
   display: inline-block;
   border-bottom: solid 1px #a7a6a6;
-  padding: 0 1rem 0.3rem 1rem;
+  padding: 0 0.5rem 0.3rem 0.5rem;
   margin-bottom: 1rem;
   font-family: 'Nanum Myeongjo';
+}
+.gallery .tit > .ico {
+  display: inline-block;
+  width: 1rem;
+  margin: 0 0.5rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.gallery .tit > .husband {
+  background-image: url(../images/icon/husband.png);
+  background-position: left center;
+}
+.gallery .tit > .wife {
+  background-image: url(../images/icon/wife.png);
+  background-position: left center;
+}
+.gallery .tit:after {
+  display: block;
+  content: '';
+  background-image: url(../images/icon/wife.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: contain;
 }
 .gallery .container {
   display: block;
