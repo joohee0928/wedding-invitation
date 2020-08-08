@@ -11,7 +11,7 @@ class WeddingInvitation {
     };
     this.pageUrl = 'https://joohee0928.github.io/wedding-invitation/';
     this.imgUrl =
-      'https://joohee0928.github.io/wedding-invitation/src/images/visual/main.jpeg';
+      'https://joohee0928.github.io/wedding-invitation/src/images/visual/main.jpg';
     this.el = null;
 
     this.init();

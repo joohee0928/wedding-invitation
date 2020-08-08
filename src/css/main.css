@@ -69,7 +69,7 @@ main {
   width: 100%;
   margin-top: 3rem;
   font-size: 1.3rem;
-  color: #d5d1c4;
+  color: #c5b8a0;
 }
 .info img {
   display: block;
@@ -146,7 +146,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #fff6f8;
+  background-color: #e8e2cf;
   margin-top: 5rem;
   padding: 3rem 0;
 }
@@ -166,7 +166,7 @@ main {
   margin-bottom: 0.5rem;
   padding: 0.5rem 0 1rem 0;
   border-bottom: solid 2px #f6f6f6;
-  color: #ff6666;
+  color: #b99951;
 }
 .calendar .header .tit {
   margin-left: 1rem;
@@ -193,7 +193,7 @@ main {
   color: #ff6666;
 }
 .calendar .contents .row .active {
-  background-color: #ff7189;
+  background-color: #b89951;
   color: #fff;
   border-radius: 50%;
 }
@@ -210,16 +210,101 @@ main {
   font-family: 'Nanum Myeongjo';
 }
 .gallery .container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  padding: 0 0.3rem;
+  display: block;
+  position: relative;
+  height: 32rem;
 }
 .gallery .container a {
   text-decoration: none;
 }
-.gallery .container img {
+.gallery .container li {
+  position: absolute;
+  top: 0;
+  left: 0.5rem;
   width: 7rem;
+  height: 5.1rem;
+  overflow: hidden;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #ddd;
+}
+.gallery .container li.item_1 {
+  background-image: url('../images/gallery/thumb-1.jpg');
+  height: 10.5rem;
+}
+.gallery .container li.item_2 {
+  background-image: url('../images/gallery/thumb-2.jpg');
+  left: 7.75rem;
+}
+.gallery .container li.item_3 {
+  background-image: url('../images/gallery/thumb-3.jpg');
+  left: auto;
+  right: 0.5rem;
+}
+.gallery .container li.item_4 {
+  background-image: url('../images/gallery/thumb-4.jpg');
+  background-position: right center;
+  top: 5.38rem;
+  left: 7.75rem;
+}
+.gallery .container li.item_5 {
+  background-image: url('../images/gallery/thumb-5.jpg');
+  top: 5.38rem;
+  left: auto;
+  right: 0.5rem;
+}
+.gallery .container li.item_6 {
+  background-image: url('../images/gallery/thumb-6.jpg');
+  top: 10.75rem;
+}
+.gallery .container li.item_7 {
+  background-image: url('../images/gallery/thumb-7.jpg');
+  top: 10.75rem;
+  left: 7.75rem;
+}
+.gallery .container li.item_8 {
+  background-image: url('../images/gallery/thumb-8.jpg');
+  background-position: center 40%;
+  top: 10.75rem;
+  left: auto;
+  right: 0.5rem;
+}
+.gallery .container li.item_9 {
+  background-image: url('../images/gallery/thumb-9.jpg');
+  background-position: right center;
+  top: 16.1rem;
+}
+.gallery .container li.item_10 {
+  background-image: url('../images/gallery/thumb-10.jpg');
+  top: 21.5rem;
+}
+.gallery .container li.item_11 {
+  background-image: url('../images/gallery/thumb-11.jpg');
+  top: 16.1rem;
+  left: 7.75rem;
+  width: 14.25rem;
+  height: 10.5rem;
+}
+.gallery .container li.item_12 {
+  background-image: url('../images/gallery/thumb-12.jpg');
+  top: 26.9rem;
+}
+.gallery .container li.item_13 {
+  background-image: url('../images/gallery/thumb-13.jpg');
+  top: 26.9rem;
+  left: 7.75rem;
+}
+.gallery .container li.item_14 {
+  background-image: url('../images/gallery/thumb-14.jpg');
+  left: auto;
+  top: 26.9rem;
+  left: auto;
+  right: 0.5rem;
+}
+.gallery .container img {
+  width: 100%;
+  visibility: hidden;
 }
 .gallery .description {
   margin-top: 1rem;
@@ -341,6 +426,10 @@ main {
 }
 .guide .bank dd {
   margin-top: 0.3rem;
+}
+.guide .back a {
+  text-decoration: none;
+  color: #999;
 }
 .guide .bank span:after {
   position: relative;
