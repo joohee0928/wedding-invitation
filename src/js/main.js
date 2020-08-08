@@ -47,7 +47,7 @@ class WeddingInvitation {
     } = this.el;
     lightGallery(gallery, {
       download: false,
-      preload: 3,
+      preload: 2,
     });
 
     addEvent(btnKakaoMap, 'click', this.onClickKakaoMap);
