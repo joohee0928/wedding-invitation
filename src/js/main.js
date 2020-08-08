@@ -45,7 +45,11 @@ class WeddingInvitation {
       btnKakaoTalk,
       btnFacebook,
     } = this.el;
-    lightGallery(gallery);
+    lightGallery(gallery, {
+      download: false,
+      preload: 3,
+    });
+
     addEvent(btnKakaoMap, 'click', this.onClickKakaoMap);
     addEvent(btnNaverMap, 'click', this.onClickNaverMap);
     addEvent(btnTMap, 'click', this.onClickTMap);
