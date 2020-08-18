@@ -395,7 +395,7 @@ main {
 .location .ico_location {
   display: inline-block;
   position: relative;
-  top: 0.5rem;
+  top: 0.55rem;
   width: 2rem;
   height: 2rem;
   margin: 0 0.3rem 0 0.5rem;
@@ -477,7 +477,7 @@ main {
 .guide .ico_subway {
   display: inline-block;
   position: relative;
-  top: 0.5rem;
+  top: 0.35rem;
   width: 1.5rem;
   height: 1.5rem;
   background-image: url('../images/location/ico_subway.png');
@@ -535,7 +535,7 @@ main {
 .guide .ico_car {
   display: inline-block;
   position: relative;
-  top: 0.3rem;
+  top: 0.35rem;
   width: 1.5rem;
   height: 1.5rem;
   padding: 0 0.1rem;
