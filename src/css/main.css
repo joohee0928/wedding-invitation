@@ -189,12 +189,21 @@ main {
   border-bottom: 2px solid #f6f6f6;
   color: #ffc8c8;
 }
-.calendar .header .tit {
-  margin-left: 0.7rem;
-}
 .calendar .header .tit em {
   font-size: 1.5rem;
   font-weight: 900;
+}
+.calendar .ico_calendar {
+  display: inline-block;
+  position: relative;
+  top: 0.5rem;
+  width: 2rem;
+  height: 2rem;
+  margin: 0 0.5rem;
+  background-image: url('../images/icon/ico_wedding_day.png');
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 .calendar .header time {
   font-size: 0.8rem;
@@ -357,6 +366,11 @@ main {
   font-size: 0.5rem;
   color: #a7a6a6;
 }
+.gallery .description::before {
+  content: '*';
+  position: relative;
+  top: 0.1rem;
+}
 
 /* 영상 */
 .video {
@@ -376,17 +390,29 @@ main {
 .location .header .addr_fst {
   font-size: 1rem;
 }
+.location .ico_location {
+  display: inline-block;
+  position: relative;
+  top: 0.5rem;
+  width: 2rem;
+  height: 2rem;
+  margin: 0 0.5rem;
+  background-image: url('../images/location/wedding_hall.png');
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 .location .header .addr_lst {
   font-size: 0.8rem;
   color: #a7a6a6;
   margin: 0.5rem 0;
-  padding: 0 1rem;
+  padding: 0 0.5rem;
 }
 .location .header .tel {
   text-decoration: none;
   font-size: 0.8rem;
   color: #a7a6a6;
-  padding: 0 1rem;
+  padding: 0 0.5rem;
 }
 .location .map .view img {
   width: 100%;
@@ -446,13 +472,35 @@ main {
 .guide dl dt {
   margin-bottom: 0.7rem;
 }
+.guide .ico_subway {
+  display: inline-block;
+  position: relative;
+  top: 0.5rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-image: url('../images/location/ico_subway.png');
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 .guide dl dd {
   position: relative;
   font-size: 0.8rem;
   color: #a7a6a6;
   margin-top: 0.5rem;
-  padding: 0 1rem;
   line-height: 1rem;
+}
+.guide .ico_bus {
+  display: inline-block;
+  position: relative;
+  top: 0.3rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-image: url('../images/location/ico_bus.png');
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 0 !important;
 }
 .guide .bus ul {
   margin-top: 0.5rem;
@@ -481,6 +529,35 @@ main {
 .guide .bus span:not(.tit) {
   line-height: 1rem;
   padding: 0.08rem 0 0 0;
+}
+.guide .ico_car {
+  display: inline-block;
+  position: relative;
+  top: 0.3rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 0 0.1rem;
+  background-image: url('../images/location/ico_car.png');
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.guide .car dd:last-child::before {
+  content: '*';
+  position: relative;
+  top: 0.1rem;
+}
+.guide .ico_bank {
+  display: inline-block;
+  position: relative;
+  top: -0.2rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 0 0.1rem;
+  background-image: url('../images/icon/ico_bank.png');
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 .guide .back a {
   text-decoration: none;
