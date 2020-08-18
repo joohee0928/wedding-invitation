@@ -37,6 +37,8 @@ class WeddingInvitation {
       btnTMap: $('#btnTMap'),
       btnKakaoTalk: $('#btnKakaoTalk'),
       btnFacebook: $('#btnFacebook'),
+      btnGroominvit: $('#btnGroominvit'),
+      btnQRcode: $('#btnQRcode'),
     };
   };
 
@@ -49,6 +51,8 @@ class WeddingInvitation {
       btnTMap,
       btnKakaoTalk,
       btnFacebook,
+      btnGroominvit,
+      btnQRcode,
     } = this.el;
     lightGallery(gallery, {
       download: false,
@@ -61,6 +65,8 @@ class WeddingInvitation {
     addEvent(btnTMap, 'click', this.onClickTMap);
     addEvent(btnKakaoTalk, 'click', this.onClickKakaoTalk);
     addEvent(btnFacebook, 'click', this.onClickShareFacebook);
+    addEvent(btnGroominvit, 'click', this.onClickGroominvit);
+    addEvent(btnQRcode, 'click', this.onClickQRcode);
   };
 
   dday = () => {
@@ -211,6 +217,15 @@ class WeddingInvitation {
       '',
       'left=0,top=0,width=650,height=420,personalbar=0,toolbar=0,scrollbars=0,resizable=0'
     );
+  };
+
+  onClickGroominvit = () => {
+    window.location.href =
+      'https://9min.github.io/wedding-invitation-20200912/';
+  };
+
+  onClickQRcode = () => {
+    window.location.href = 'https://accounts.kakao.com/qr_check_in';
   };
 }
 
