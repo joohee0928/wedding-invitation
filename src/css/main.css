@@ -553,7 +553,7 @@ main {
 .guide .ico_bank {
   display: inline-block;
   position: relative;
-  top: -0.2rem;
+  top: 0.35rem;
   width: 1.5rem;
   height: 1.5rem;
   padding: 0 0.1rem;
@@ -561,18 +561,6 @@ main {
   background-position: left center;
   background-repeat: no-repeat;
   background-size: contain;
-}
-.guide .back a {
-  text-decoration: none;
-  color: #999;
-}
-.guide .bank span:after {
-  position: relative;
-  border-right: 1px solid #bbb;
-  top: -0.1rem;
-  content: '';
-  margin: 0 0.2rem 0 0.5rem;
-  font-size: 0.5rem;
 }
 
 /* 공유하기 */
