@@ -70,7 +70,7 @@ class WeddingInvitation {
   };
 
   dday = () => {
-    const dday = new Date('September 12, 2020 00:00:00');
+    const dday = new Date('November 14, 2020 00:00:00');
     const gap = dday.getTime() - new Date().getTime();
     const date = Math.floor(gap / (1000 * 60 * 60 * 24)) + 1;
     this.el.dday.innerHTML = date > 0 ? `D-${date}` : 'D-Day';
@@ -191,7 +191,7 @@ class WeddingInvitation {
       addressTitle: '엠타워컨벤션',
       content: {
         title: '구민♥주희 결혼식에 초대합니다!',
-        description: '9/12(토) pm 5:30 안양 엠타워컨벤션',
+        description: '11/14(토) pm 5:30 안양 엠타워컨벤션',
         imageUrl: this.imgUrl,
         link: {
           mobileWebUrl: this.pageUrl,
