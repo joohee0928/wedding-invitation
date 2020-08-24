@@ -220,7 +220,7 @@ class WeddingInvitation {
 
   onClickGroominvit = () => {
     window.location.href =
-      'https://9min.github.io/wedding-invitation-20200912/';
+      'https://9min.github.io/wedding-invitation/';
   };
 
   onClickQRcode = () => {
