@@ -72,6 +72,18 @@ main {
   margin-top: 4.2rem;
   font-size: 1.5rem;
   color: #e66464;
+  animation: color-animation 1s ease infinite;
+}
+@keyframes color-animation {
+  0% {
+    color: #e66464;
+  }
+  50% {
+    color: #ffc8c8;
+  }
+  100% {
+    color: #e66464;
+  }
 }
 .info img {
   display: block;
@@ -549,6 +561,9 @@ main {
   position: relative;
   top: 0.1rem;
   padding: 0 0.1rem 0 0;
+}
+.guide .car .notice {
+  color: #e66464;
 }
 .guide .ico_bank {
   display: inline-block;
